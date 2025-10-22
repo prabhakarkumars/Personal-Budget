@@ -1,0 +1,18 @@
+{
+    "name": "x-hete-personal-bud",
+    "version": "1.0.0",
+    "description": "[BUILD AGENT GENERATED]:  A personal budget management application for tracking monthly budgets by category and monitoring expenses against budget limits",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.0.2",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.2"
+    }
+}
