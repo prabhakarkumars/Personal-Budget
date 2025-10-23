@@ -9,6 +9,10 @@ declare global {
                         table: 'sys_module'
                         id: '7cc47efa6e4a423fb15b13665b58b58f'
                     }
+                    'budget-dashboard': {
+                        table: 'sys_ui_page'
+                        id: '01abbb8940534605b08385344d3102fd'
+                    }
                     category_entertainment: {
                         table: 'x_hete_personal_bu_budget_categories'
                         id: 'fdb58b6128d2462d9c1efac94ba913a9'
@@ -33,6 +37,54 @@ declare global {
                         table: 'x_hete_personal_bu_budget_categories'
                         id: 'aa2fc31180174e95bb8f87b3eca3446e'
                     }
+                    expense_1: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: 'bafe1c4856a74dd9bdea86327badd05a'
+                    }
+                    expense_10: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '4047d8b490664cd8a0d590af90a76724'
+                    }
+                    expense_11: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '417fda82b175401aa8e254ecde3f12e3'
+                    }
+                    expense_12: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '7fcc8e97e6324a328a5d02c5a6b5eade'
+                    }
+                    expense_2: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '00a1a922521b4b43b7c859c63ea0a4b0'
+                    }
+                    expense_3: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '0f6ec5c6fd9d44ef93e7379b9e5968c4'
+                    }
+                    expense_4: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '6b15af2396e84168aa5da99a912cc996'
+                    }
+                    expense_5: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '073b4ad814f64b03bdfe951482ac4df1'
+                    }
+                    expense_6: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '0315f6889648436da5e747a36dcdc8cb'
+                    }
+                    expense_7: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '9847ea13150d4a6b914376ad122345c4'
+                    }
+                    expense_8: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: '1e46a821726a4ed4a8090a8b5a7b9f69'
+                    }
+                    expense_9: {
+                        table: 'x_hete_personal_bu_expenses'
+                        id: 'd13df9e302984fe3b4c5b153757d1bc3'
+                    }
                     expense_delete_br: {
                         table: 'sys_script'
                         id: 'd35471249ae841efbaca1a26281ab910'
@@ -45,6 +97,26 @@ declare global {
                         table: 'sys_script'
                         id: '8d0b6742fcbf482cb4a42f618b0af6c3'
                     }
+                    monthly_budget_1: {
+                        table: 'x_hete_personal_bu_monthly_budgets'
+                        id: '016e61a4a6ef476dacc8e700de6d36f9'
+                    }
+                    monthly_budget_2: {
+                        table: 'x_hete_personal_bu_monthly_budgets'
+                        id: '453b4d49afca467f999c36ab1cdf20da'
+                    }
+                    monthly_budget_3: {
+                        table: 'x_hete_personal_bu_monthly_budgets'
+                        id: 'acf3322bf7674299a47b820a7cb13fa7'
+                    }
+                    monthly_budget_4: {
+                        table: 'x_hete_personal_bu_monthly_budgets'
+                        id: '4b89a8fab4d24bdb8a4979ef18980b8f'
+                    }
+                    monthly_budget_5: {
+                        table: 'x_hete_personal_bu_monthly_budgets'
+                        id: 'da7e8387c0d04476bae8264508eff526'
+                    }
                     package_json: {
                         table: 'sys_module'
                         id: '25a25ef3c54841bea4927db47fd4a04b'
@@ -52,6 +124,14 @@ declare global {
                     'src_server_budget-calculations_js': {
                         table: 'sys_module'
                         id: '35a9999713394b01820837da1698d20c'
+                    }
+                    'x_hete_personal_bu/main': {
+                        table: 'sys_ux_lib_asset'
+                        id: '911b646ae461455ba71e2cb11ce12582'
+                    }
+                    'x_hete_personal_bu/main.js.map': {
+                        table: 'sys_ux_lib_asset'
+                        id: '0a38550e91a54031b4d6f9db7e775cf2'
                     }
                 }
                 composite: [
