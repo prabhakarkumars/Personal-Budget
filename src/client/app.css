@@ -57,12 +57,13 @@ body {
 }
 
 .nav-btn.action-btn {
-  background: #2ecc71;
-  border-color: #27ae60;
+  background: #e74c3c;
+  border-color: #c0392b;
 }
 
 .nav-btn.action-btn:hover {
-  background: #27ae60;
+  background: #c0392b;
+  transform: translateY(-1px);
 }
 
 /* Main Content */
@@ -116,12 +117,12 @@ body {
 }
 
 .btn-success {
-  background: #2ecc71;
+  background: #e74c3c;
   color: white;
 }
 
 .btn-success:hover {
-  background: #27ae60;
+  background: #c0392b;
 }
 
 .btn-danger {
