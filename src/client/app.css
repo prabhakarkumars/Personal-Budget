@@ -57,13 +57,21 @@ body {
 }
 
 .nav-btn.action-btn {
+  background: #2ecc71;
+  border-color: #27ae60;
+}
+
+.nav-btn.action-btn:hover {
+  background: #27ae60;
+}
+
+.nav-btn.expense-btn {
   background: #e74c3c;
   border-color: #c0392b;
 }
 
-.nav-btn.action-btn:hover {
+.nav-btn.expense-btn:hover {
   background: #c0392b;
-  transform: translateY(-1px);
 }
 
 /* Main Content */
@@ -117,12 +125,12 @@ body {
 }
 
 .btn-success {
-  background: #e74c3c;
+  background: #2ecc71;
   color: white;
 }
 
 .btn-success:hover {
-  background: #c0392b;
+  background: #27ae60;
 }
 
 .btn-danger {
