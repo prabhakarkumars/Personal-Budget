@@ -44,7 +44,7 @@ export default function App() {
             Expenses
           </button>
           <button 
-            className="nav-btn action-btn"
+            className="nav-btn expense-btn"
             onClick={() => setCurrentView('add-expense')}
           >
             + Add Expense
