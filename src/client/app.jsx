@@ -29,7 +29,7 @@ export default function App() {
   return (
     <div className="budget-app">
       <header className="app-header">
-        <h1>💰 Personal Budget Tracker</h1>
+        <h1>Personal Budget Tracker</h1>
         <nav className="app-nav">
           <button 
             className={currentView === 'dashboard' ? 'nav-btn active' : 'nav-btn'}
